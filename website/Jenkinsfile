@@ -9,7 +9,7 @@ pipeline {
             steps {
                 script {
                     // Replace 'edureka@kslave1-172.31.0.184' with the actual name or IP address of your test server      
-                    def testServer = 'edureka@kmaster-172.31.11.133'
+                    def testServer = 'edureka@kslave1-172.31.0.184'
 
                     // Replace 'https://github.com/Abhi7296/project1_edureka.git' with your Ansible playbook Git repository URL
                     def ansibleRepo = 'https://github.com/Abhi7296/project1_edureka.git'
